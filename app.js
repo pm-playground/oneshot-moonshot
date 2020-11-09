@@ -4,7 +4,6 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const routes = require('./routes/main');
 const secureRoutes = require('./routes/secure');
-const mongoose = require('mongoose');
 
 const uri = process.env.MONGO_URL;
 
